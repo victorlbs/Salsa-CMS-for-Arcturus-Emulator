@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>	
+        <rewrite>
+		<rules>	
+			<rule name="rule 1J">
+			<match url="^([a-zA-Z0-9_-]+)(|/)$"  />
+			<action type="Rewrite" url="/index.php?url={R:1}"  />
+			</rule>
+			<rule name="rule 2J">
+			<match url="^swf/habbo-imaging/badge/([a-zA-Z0-9_-]+)(|/)$"  />
+			<action type="Rewrite" url="/swf/habbo-imaging/badge.php?badge={R:1}"  />
+			</rule>
+		</rules>
+	 </rewrite>
+  </system.webServer>
+</configuration>
