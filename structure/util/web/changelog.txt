@@ -1,0 +1,96 @@
+22/01/2020
+• Adicionado sistema de temas para as CMS
+
+• Adicionado sistema de senha BCRYPT 
+• Adicionado sistema de redirecionanmento caso nao esteja logado 
+• Adicionado sistema de login e registro 
+• Adicionado diversos defines para melhor uso de variavéis 
+23/01/2020
+• SSO concluído; • Não gera sessões iguais; 
+• Impossivel entrar na conta de outro usuário na client; 
+• SSO feita a partir do time atual com nome de usuário; 
+• Client funcionando 100% testado: https://i.imgur.com/uesXzuw.png 
+• Sistema de postagens finalizado funcionando: https://i.imgur.com/ffcdXP8.png 
+• Adicionado na página de configurações: alterar missão, discord e e-mail; 
+• Adicionado página da equipe com os cargos: CEO, Gerente, Administrador, Moderador; 
+• Adicionado página de notícias 
+• Adicionado página de comprar produtos 
+• Adicionado página de colaboradores 
+• Adicionado página do Hall da Fama 
+24/01/2020
+• Página de saída finalizada 
+• Removido redirecionamento inválido 
+• Adicionado um novo redirecionamento no registro 
+• Sistema de usuários online modificado 
+• Adicionado web.config para compatibilidade com IIS 
+• Página solicitando para permitir o Flash adicionada 
+25/01/2020
+• Adicionado static nas funções
+• Adicionado bloqueio para nicknames com espaço ou pontos
+• Pessoas que não tiverem feito o login serão chamadas de Convidado
+• Adicionado compatibilidade com cPanel
+• Melhorias nas funções de sessão
+• Adicionado proteção nas notícias com is_numeric
+• Adicionado página de erro 404 
+• Adicionado arquivo salsa.sql na pasta raiz para importar no seu banco de dados
+26/01/2020
+• Corrigido define de login 
+• Melhorias no sistema da CMS no geral 
+• Compatibilidade com PHP 5 até 7 
+• Adicionado compatibilidade com Arcturus Morningstar (importe salsa.sql) 
+27/01/2020
+• Adicionado novas imagens na CMS 
+• Adicionado pesquisa de usuario 
+• Adicionado funçao de gravar o ultimo IP 
+• Adicionado funçao de referidos 
+• Adicionado pagina de perfil com sistema de recados 
+• Adicionado segurança extra conta XSS 
+• Adicionado função para proibir nicknames inválidos 
+• Adicionado sistema de desativar/ativar registro e/ou login 
+28/01/2020
+• Adicionado painel de controle na CMS 
+• Adicionado sistema de sessão segura no HK (Rank, Sessão, Nome) 
+• Adicionado estatísticas no HK 
+• Adicionado no painel histórico de conversas 
+• Adicionado no painel função de banimento 
+• Adicionado no painel função de ver contas fakes
+29/01/2020
+• Adicionado opção na configuração: camuflagem de IP/Porta na client 
+• Melhorias no back do registro 
+• Melhorias em sessão de usuários não logados 
+30/01/2020
+• Melhorias no back do registro 
+• Adicionado novo tema no HK 
+• Adicionado no HK função de publicar notícias 
+• Adicionado opção para configurar url de emblemas que aparecem na CMS 
+• Adicionado contagem de referidos na página principal 
+• Adicionado filtro na página de perfil
+01/02/2020
+• Adicionado ao menu o Painel de controle 
+• Adicionado função dar emblemas no Painel de Controle 
+• Usuários deslogados não terão mais nomeação 
+• Melhorias na página de hall, colaboradores e vips 
+• Sistema de banimentos finalizados 
+• Adicionado função de dar pontos de promoção no painel 
+• Menu no painel agora é visto pelos seus respectivos ranks 
+• Adicionado função de Premiar usuários no painel (Dá emblema NV, créditos, diamantes e ponto no Hall) http://prntscr.com/qw0wmu http://prntscr.com/qw0wp6 (É possível configurar os valores e emblema ) 
+• Melhorias na página de perfil (Convidados não podem mais enviar recados e filtros) 
+• Fixado visual não atualizar no salsa.sql 
+03/02/2020
+• Proibido acentos em criar contas 
+• Adicionado limite de uma postagem por dia 
+• Adicionado configuração para escolher qual rank pode entrar no Hotel com ele em manutenção 
+• Adicionado função de curtir publicações na página principal 
+• Adicionado função dar cargo no Painel de Controle 
+• Adicionado descongelar automático na client 
+• Adicionado referidos e duckets no Hall da Fama 
+• Melhorias nos arquivos de funções 
+• Melhorias nos referidos 
+08/02/2020
+• Adicionado função de usar client fake impossibilitando de ver o código fonte da mesma 
+• Adicionado Placar de conquistas no Hall da fama 
+• Adicionado função de ativar/desativar promoções ativas no Painel 
+• Fixado loginstaff na manutenção usuários não podem mais entrar com hotel em manutenção 
+• Adicionado função de remover emblemas no painel 
+• Adicionado função para não confundir ips caso o site esteja no CloudFlare 
+• Adicionado função de editar notícias no painel 
