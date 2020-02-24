@@ -35,8 +35,9 @@
                         <div class="card-body">
 
                             <img id="mv" alt="Este é você!" src="<?php echo $config['site.avatar'] ?><?php echo $rpns ?>">
-                            <form method="post" action="/client"></form>
+                            <form method="post" action="/client">
                             <button id="redondo-cmc" type="submit" class="btn btn-success">Entrar no <?php echo nome ?></button>
+                            </form>
 
                             </form>
                             <div id="caixa-inv"></div>

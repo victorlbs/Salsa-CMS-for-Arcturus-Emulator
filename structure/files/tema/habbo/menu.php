@@ -82,7 +82,7 @@
       </li>
 
       <li class="nav-item">
-      <a class="nav-link" href="/registro">Entrar no <?php echo nome ?></a>
+      <a class="nav-link" href="/client">Entrar no <?php echo nome ?></a>
       </li>
 
 
