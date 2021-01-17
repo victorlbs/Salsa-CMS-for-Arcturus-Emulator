@@ -1,0 +1,90 @@
+h1,
+                h2 {
+                    color: #fff;
+                    font-family: "Ubuntu Condensed", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+                    font-weight: 400;
+                    margin: .6em 0;
+                    line-height: 1.2;
+                }
+                
+                .salsatexto {
+                    color: #fff;
+                    font-family: "Ubuntu Condensed", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+                    font-weight: 80;
+                    margin: .6em 0;
+                    line-height: 1.2;
+                }
+                
+                .salsacontainer {
+                    height: 140px;
+                }
+                
+                .register-banner__button {
+                    display: inline-block;
+                    text-align: center;
+                    background-color: #00813e;
+                    border-color: #8eda55;
+                    font-size: 20px;
+                    padding: 12px 24px;
+                    font-family: "Ubuntu Condensed", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, border-radius: 5px;
+                    border-width: 2px;
+                    border-style: solid;
+                    margin-bottom: 4px;
+                    text-transform: uppercase;
+                    width: 180px;
+                    color: white;
+                    text-decoration: none;
+                }
+                .client-buttons {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 100;
+}
+.rounded-button:not(.white):not([disabled]):not(.no-hover):hover, .rounded-button:not(.white).plain {
+    background-color: #333;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+.rounded-button.blue {
+    color: #138cc8;
+    border-color: #138cc8;
+}
+.rounded-button {
+    background-color: transparent;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    border-radius: 48px;
+    padding: 11px 24px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: montserrat,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    border: 2px solid #333;
+    cursor: pointer;
+    height: 47px;
+    line-height: 21px;
+    text-shadow: none;
+    text-align: center;
+    -webkit-transition: background-color .2s,color .2s;
+    transition: background-color .2s,color .2s;
+}
+.client-buttons button {
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2);
+    display: block;
+    float: left;
+    padding: 7px;
+    min-width: 34px;
+    height: 34px;
+    font-size: 12px;
+    margin-right: 10px;
+    line-height: normal;
+}
+.rounded-button.blue:not([disabled]):not(.no-hover):hover, .rounded-button.blue.plain {
+    background-color: #138cc8;
+    color: #fff;
+}
