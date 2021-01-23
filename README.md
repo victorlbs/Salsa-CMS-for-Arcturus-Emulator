@@ -6,7 +6,7 @@
 <hr>
 
 <h1>Sobre</h1> 
-Salsa CMS é uma simples CMS feita com PHP 7 & Bootstrap, especialmente para o Arcturus Emulador mas serve também para o Arcturus Morningstar
+Salsa CMS é uma simples CMS especialmente para o Arcturus e Arcturus Morningstar
 
 
 <h2>Requisitos</h2> 
