@@ -52,7 +52,7 @@ $config['habbo.swf'] = "http://localhost/swf/gordon/PRODUCTION-201601012205-2266
 
 
 // Configurações do tema atual
-$config['tema.tema'] = "habbo";
+$config['tema.tema'] = "original";
 $config['tema.logo'] = "http://habbox.com/text/70/Habbo";
 $config['tema.topheader'] = "https://i.imgur.com/tgTqRgb.gif";
 $config['tema.urlemblemas'] = "http://images.habbo.com/c_images/album1584/"; // Pasta de emblemas do perfil
