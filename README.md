@@ -62,15 +62,18 @@ Salsa CMS é uma CMS simples, projetada especificamente para o Arcturus e Arctur
 
 ### Configurações do Banco de Dados
 
-```php
+
 // Configurações do banco de dados
+```php
 $config['database_hostname'] = "localhost"; // Hostname do banco de dados
 $config['database_username'] = "user"; // Nome de usuário do banco de dados
 $config['database_password'] = "pass"; // Senha do banco de dados
 $config['database_name'] = "db"; // Nome do banco de dados
+ ```
+
+
 Configurações do Site
-php
-Copiar código
+```php
 $config['site.nome'] = "Habbo"; // Nome do Hotel
 $config['site.url'] = "http://localhost"; // URL do Hotel
 $config['404page'] = "404"; // Página de erro
@@ -80,16 +83,18 @@ $config['site.avatar'] = "https://habbo.city/habbo-imaging/avatarimage?figure=";
 $config['site.red'] = "1";
 $config['site.rank.minimo'] = 3; // Rank mínimo para acesso durante manutenção
 $config['site.cmfclient'] = 0; // 0: Desativar, 1: Ativar camuflagem de IP
+ ```
+
 Configurações do Painel de Controle
-php
-Copiar código
+```php
 $config['painel.rankminimo'] = 5; // Rank mínimo para acesso ao painel
 $config['painel.premiar_creditos'] = 200; // Créditos dados como prêmio
 $config['painel.premiar_diamantes'] = 10; // Diamantes dados como prêmio
 $config['painel.premiar_codigo_emblema'] = "NV"; // Código do emblema de prêmio
+ ```
+
 Configurações do Registro
-php
-Copiar código
+```php
 $config['registro.ativado'] = 1; // 0: Desativar, 1: Ativar registro
 $config['registro.captcharegistro'] = 1; // 0: Desativar, 1: Ativar captcha
 $config['registro.missao'] = "Dominar o mundo"; // Missão inicial do usuário
@@ -97,9 +102,10 @@ $config['registro.creditos'] = "100"; // Créditos iniciais
 $config['registro.visual'] = "hr-115-45.hd-209-2.ch-255-76.lg-275-62.fa-1204.ca-1806-65"; // Visual inicial do avatar
 $config['registro.quartoinicial'] = "1"; // Quarto inicial
 $config['registro.contasporip'] = 50; // Limite de contas por IP
+ ```
+
 Configurações da Client
-php
-Copiar código
+```php
 $config['connection.info.host'] = "localhost"; // IP da VPS ou Hamachi
 $config['connection.info.port'] = "30000"; // Porta do emulador
 $config['url.prefix'] = "http://localhost";
@@ -113,9 +119,10 @@ $config['productdata.load.url'] = "http://localhost/swf/gamedata/productdata.txt
 $config['external.override.variables.txt'] = "http://localhost/swf/gamedata/override/external_override_variables.txt";
 $config['flash.client.url'] = "http://localhost//swf/gordon/PRODUCTION-201601012205-226667486/";
 $config['habbo.swf'] = "http://localhost/swf/gordon/PRODUCTION-201601012205-226667486/Habbo.swf";
+ ```
+
 Configurações do Tema
-php
-Copiar código
+```php
 $config['tema.tema'] = "original";
 $config['tema.logo'] = "http://habbox.com/text/70/Habbo";
 $config['tema.topheader'] = "https://i.imgur.com/tgTqRgb.gif";
@@ -124,6 +131,11 @@ $config['tema.postagens'] = 1; // 0: Desativar, 1: Ativar postagens na página p
 $config['tema.facebook'] = "http://facebook.com/Habbo";
 $config['tema.twitter'] = "http://twitter.com/Habbo";
 $config['tema.discord'] = "http://discord.gg/Habbo";
+ ```
+
+
+
+
 Considerações Finais
 Ao seguir essas instruções e utilizar essa documentação, você garante que a instalação e configuração do Salsa CMS sejam realizadas de maneira profissional e eficaz, permitindo uma experiência tranquila para os administradores do sistema e usuários finais.
 
